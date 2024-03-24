@@ -1,0 +1,6 @@
+# Игнорировать временные файлы VS Code
+.vscode/
+*.code-workspace
+node_modules/
+ScreenShot/
+coverage/

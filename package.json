@@ -1,0 +1,38 @@
+{
+  "name": "jsaqa_3",
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --collectCoverage"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "omelnikova",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "jshint": "^2.13.6"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    },
+    "reportCriteria": {
+      "fileExtensions": [".js", ".jsx"],
+      "excludedDirectories": ["/node_modules/", "/coverage/"]
+    }
+  }
+}
